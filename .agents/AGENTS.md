@@ -36,6 +36,10 @@ In addition to the automatic pipeline, the user can trigger specialized deep-div
 - **`/review`**: Pre-landing PR/Code review. Find bugs that pass CI but break in production. 
 - **`/ship`**: Release engineer. Run tests, verify stability, push code, and finalize the deployment safely.
 
+### Phase D: Operational & Memory
+- **`/skillify`**: The Self-Replicator. Codifies a successful, complex workflow into a brand new permanent skill in the `.agents/skills/` directory.
+- **`/retro`**: Weekly retrospective. Analyzes git history and artifacts to report on velocity, bugs caught, and team health.
+
 *(Note: The framework also leverages Antigravity's native `/learn` slash command for managing learned behavior across sessions).*
 
 ## 4. Output Format

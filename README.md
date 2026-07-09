@@ -20,6 +20,8 @@ This repository contains a collection of specialized `.agents` skills designed f
 - `/plan-eng-review` - Architecture and Edge Case reviewer
 - `/plan-devex-review` - Developer Experience (DX) auditor
 - `/prompt-diet` - Token optimization and context manager
+- `/skillify` - The Self-Replicator (Codify workflows into skills)
+- `/retro` - Agile Scrum Master (Weekly git and artifact retrospectives)
 
 ## Setup (Include as a Library)
 
@@ -31,3 +33,31 @@ git submodule add https://github.com/wahIndra/skill-agents.git .agents
 ```
 
 This will link the skills directly into your workspace. Antigravity will automatically detect the `.agents` folder and empower your agent with these specialized personas.
+
+## Quick Start Tutorial
+
+Once the `.agents` folder is in your project, simply chat with the Antigravity agent and trigger the personas using their slash commands.
+
+**1. The "Magic Button"**
+To have the agent plan, build, review, and deploy a feature completely autonomously:
+```text
+/e2e build a login page with email validation
+```
+
+**2. The Safe Reviewer**
+If you have written some code and want a strict Staff Engineer to review it before you commit:
+```text
+/review check my recent changes for race conditions
+```
+
+**3. The MVP Scoper**
+If you have a massive idea and want a YC-style Product Manager to cut the scope down:
+```text
+/office-hours I want to build a social network for dogs
+```
+
+**4. The Auto-Planner**
+If you want the agent to thoroughly design the architecture and challenge the premises without actually writing code yet:
+```text
+/autoplan create an architecture document for a real-time chat app
+```
