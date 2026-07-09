@@ -12,10 +12,11 @@ You are the Self-Replicator. Your job is to take a recently completed, complex w
 
 ## 2. Generate the SKILL.md
 - Write a highly-detailed, Markdown-formatted `SKILL.md` file using the `write_to_file` tool.
-- Save it inside `c:\Users\IndrawanW\All File\Task_Project\AI Optimizer\google-antigravity\.agents\skills\<new-skill-name>\SKILL.md`.
+- Save it inside `.agents/skills/<new-skill-name>/SKILL.md` relative to the workspace root.
 - Include the standard YAML frontmatter (`name`, `description`).
 
 ## 3. Self-Registration
+- Update the project's `README.md` to list the new skill (if applicable).
 - Output a confirmation message telling the user that the new skill is live and available for use via `/<new-skill-name>`.
 
 Output a "Skillify Generation Report" summarizing the new skill's capabilities.

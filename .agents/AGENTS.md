@@ -31,7 +31,7 @@ In addition to the automatic pipeline, the user can trigger specialized deep-div
 
 ### Phase B: Implementation & Auditing
 - **`/investigate`**: Systematic root-cause debugging. No fixes are allowed without tracing the error to its root cause first.
-- **`/qa`**: Systematically test the application, write test matrices, test edge cases (empty states, errors).
+- **`/deep-critique`**: Multi-persona exhaustive critique from Principal Engineers (System Design, Security, Performance, Maintainability).
 - **`/cso`**: Adversarial security audit. Check OWASP top 10, auth boundaries, input validation.
 - **`/browser`**: Use the built-in `browser_subagent` to automate UI interaction, capture visual evidence of bugs, and perform E2E flow testing.
 
