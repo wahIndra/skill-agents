@@ -241,6 +241,20 @@ Produces Diátaxis-style docs (Tutorials, How-Tos, Reference, Explanation) from 
 
 ---
 
+## 📚 Full Documentation
+
+For deeper documentation organized by the Diátaxis framework:
+
+| Type | Document | Purpose |
+|------|----------|---------|
+| 🎓 Tutorial | [Getting Started](docs/tutorials/getting-started.md) | Step-by-step guide from zero to first `/e2e` delivery |
+| 🔧 How-To | [Use Each Skill](docs/how-to/use-each-skill.md) | Practical recipes for all 23 skills |
+| 📖 Reference | [Skills Reference](docs/reference/skills.md) | Technical spec of every skill's inputs and outputs |
+| 📖 Reference | [AGENTS.md Reference](docs/reference/agents-md.md) | Every global rule and its effect |
+| 💡 Explanation | [Architecture](docs/explanation/architecture.md) | Why the framework is designed this way |
+
+---
+
 ## License
 
 MIT
