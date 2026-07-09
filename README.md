@@ -22,6 +22,8 @@ This repository contains a collection of specialized `.agents` skills designed f
 - `/prompt-diet` - Token optimization and context manager
 - `/skillify` - The Self-Replicator (Codify workflows into skills)
 - `/retro` - Agile Scrum Master (Weekly git and artifact retrospectives)
+- `/document-release` - Syncs README and docs with newly shipped code
+- `/document-generate` - Generates full Diátaxis documentation (Tutorials, How-Tos, Reference)
 
 ## Setup (Include as a Library)
 

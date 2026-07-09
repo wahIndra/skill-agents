@@ -40,6 +40,10 @@ In addition to the automatic pipeline, the user can trigger specialized deep-div
 - **`/skillify`**: The Self-Replicator. Codifies a successful, complex workflow into a brand new permanent skill in the `.agents/skills/` directory.
 - **`/retro`**: Weekly retrospective. Analyzes git history and artifacts to report on velocity, bugs caught, and team health.
 
+### Phase E: Documentation & Knowledge
+- **`/document-release`**: Updates all `README.md` and architecture docs to match the code that was just shipped.
+- **`/document-generate`**: Generates full Diátaxis-style documentation (Tutorials, How-Tos, Reference, Explanation) from the codebase.
+
 *(Note: The framework also leverages Antigravity's native `/learn` slash command for managing learned behavior across sessions).*
 
 ## 4. Output Format
