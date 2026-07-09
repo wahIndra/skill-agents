@@ -2,7 +2,14 @@
 
 > A portable `.agents` skill library that transforms **Google Antigravity** into a full-stack software development organization — from PM to QA to Release Engineering — powered by a single AI agent.
 
-This project is heavily inspired by the incredible work done on [gstack](https://github.com/wahIndra/gstack.git). We have adapted its rigorous, multi-phase adversarial review architecture specifically for Antigravity. Currently built for Antigravity; we may expand to other IDEs and AI providers later.
+This project is heavily inspired by the incredible work done on [gstack](https://github.com/wahIndra/gstack.git). We have adapted its rigorous, multi-phase adversarial review architecture for AI coding assistants.
+
+## 🖥️ Supported IDEs
+
+| IDE | Directory | Setup Guide |
+|-----|-----------|-------------|
+| **Google Antigravity** | `.agents/` (this directory) | [Setup ↓](#setup) |
+| **VS Code GitHub Copilot** | [`copilot/`](copilot/README.md) | [Copilot README](copilot/README.md) |
 
 ---
 
