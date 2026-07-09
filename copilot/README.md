@@ -8,17 +8,10 @@ This project is heavily inspired by [gstack](https://github.com/wahIndra/gstack.
 
 ## Setup
 
-Copy the `.github/` folder from this `copilot/` directory into the **root** of your project:
+Run this command in the **root** of your project to pull the Copilot-specific files:
 
 ```bash
-# From your project root:
-cp -r path/to/skill-agents/copilot/.github .github
-```
-
-Or, if using this repository as a submodule:
-```bash
-git submodule add https://github.com/wahIndra/skill-agents.git .skill-agents
-cp -r .skill-agents/copilot/.github .github
+git submodule add -b copilot https://github.com/wahIndra/skill-agents.git .github
 ```
 
 VS Code Copilot will automatically detect:

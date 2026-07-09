@@ -1,0 +1,35 @@
+name: Distribute IDE Branches
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  distribute:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Deploy Antigravity branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./antigravity/.agents
+          publish_branch: antigravity
+          force_orphan: true
+          commit_message: "chore: auto-sync antigravity branch"
+
+      - name: Deploy Copilot branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./copilot/.github
+          publish_branch: copilot
+          force_orphan: true
+          commit_message: "chore: auto-sync copilot branch"
