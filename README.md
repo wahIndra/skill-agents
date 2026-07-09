@@ -26,6 +26,8 @@ This repository contains a collection of specialized `.agents` skills designed f
 - `/document-generate` - Generates full Diátaxis documentation (Tutorials, How-Tos, Reference)
 - `/canary` - Live production post-deploy monitoring loop
 - `/mobile-qa` - Mobile viewport and responsive layout tester
+- `/context-save` - Save current persona and working state to an artifact
+- `/context-restore` - Reload a previously saved persona and state
 
 ## Setup (Include as a Library)
 
