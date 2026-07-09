@@ -27,21 +27,33 @@ This project is heavily inspired by the incredible work done on [gstack](https:/
 
 ## Setup
 
-This repository is designed to be included as a **Git Submodule** in any project's `.agents` directory.
+This repository contains the skill configuration files for multiple IDEs. It is designed to be included as a **Git Submodule** in your project.
 
 ```bash
 # In the root of your project:
-git submodule add https://github.com/wahIndra/skill-agents.git .agents
+git submodule add https://github.com/wahIndra/skill-agents.git .skill-agents
 ```
 
-Antigravity will automatically detect the `.agents` folder and load all skills. No configuration required.
+Once cloned, you must link the skills to your specific IDE.
 
-**Cloning a project that already uses this library:**
+**For Google Antigravity:**
 ```bash
-git clone --recurse-submodules <your-project-url>
-# Or, if already cloned:
-git submodule update --init --recursive
+ln -s .skill-agents/antigravity/.agents .agents
+# (Or on Windows, just copy the folder: cp -r .skill-agents/antigravity/.agents .agents)
 ```
+Antigravity will automatically detect the `.agents` folder and load all skills.
+
+**For VS Code GitHub Copilot:**
+```bash
+ln -s .skill-agents/copilot/.github .github
+# (Or on Windows, just copy the folder: cp -r .skill-agents/copilot/.github .github)
+```
+Copilot will automatically detect the instructions and prompt files.
+
+> **Already cloning a project that uses this library?**
+> ```bash
+> git clone --recurse-submodules <your-project-url>
+> ```
 
 ---
 

@@ -19,10 +19,11 @@ This tutorial walks you through setting up the Skill Agents library in your proj
 Open a terminal in the root of your project and run:
 
 ```bash
-git submodule add https://github.com/wahIndra/skill-agents.git .agents
+git submodule add https://github.com/wahIndra/skill-agents.git .skill-agents
+ln -s .skill-agents/antigravity/.agents .agents
 ```
 
-This creates an `.agents` folder containing all 23 skills. Antigravity automatically detects this folder — no additional configuration is needed.
+This creates an `.agents` symlink pointing to all 23 skills. Antigravity automatically detects this folder — no additional configuration is needed.
 
 > **Already cloning a project that uses this library?**
 > ```bash
