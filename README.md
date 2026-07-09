@@ -24,6 +24,8 @@ This repository contains a collection of specialized `.agents` skills designed f
 - `/retro` - Agile Scrum Master (Weekly git and artifact retrospectives)
 - `/document-release` - Syncs README and docs with newly shipped code
 - `/document-generate` - Generates full Diátaxis documentation (Tutorials, How-Tos, Reference)
+- `/canary` - Live production post-deploy monitoring loop
+- `/mobile-qa` - Mobile viewport and responsive layout tester
 
 ## Setup (Include as a Library)
 

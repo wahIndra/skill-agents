@@ -44,6 +44,11 @@ In addition to the automatic pipeline, the user can trigger specialized deep-div
 - **`/document-release`**: Updates all `README.md` and architecture docs to match the code that was just shipped.
 - **`/document-generate`**: Generates full Diátaxis-style documentation (Tutorials, How-Tos, Reference, Explanation) from the codebase.
 
+### Phase F: Advanced Live QA & Mobile
+- **`/qa`**: (Omni-QA) Omnipotent QA/QC engineer. Executes Whitebox, Greybox, Blackbox, Functional, and Regression testing across any platform (Web, API, CLI).
+- **`/canary`**: Post-deploy monitoring loop. Visually inspects the live production URL to detect silent crashes.
+- **`/mobile-qa`**: Dedicated mobile testing persona. Simulates iOS/Android viewports to test responsive layouts and touch targets.
+
 *(Note: The framework also leverages Antigravity's native `/learn` slash command for managing learned behavior across sessions).*
 
 ## 4. Output Format
